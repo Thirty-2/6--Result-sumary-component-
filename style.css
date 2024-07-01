@@ -11,7 +11,7 @@ span { font-weight: 700; }
 .Bg-4 { color: hsl(234, 85%, 45%); }
 
 /* Container */
-#Container { display: flex; margin: 230px auto; background-color: white; width: fit-content; border-radius: 30px; box-shadow: 10px 10px 10px -10px hsl(241, 100%, 89%); }
+#Container { display: flex; margin: 139px auto; background-color: white; width: fit-content; border-radius: 30px; box-shadow: 10px 10px 10px -10px hsl(241, 100%, 89%); }
 
 /* Left */
 .Left { background: linear-gradient(to Bottom, hsl(252, 100%, 67%) 10%, hsl(241, 81%, 54%) 100%); display: flex; flex-flow: column; align-items: center; gap: 40px; text-align: center; border-radius: 30px; width: 50%; padding: 40px; color: white; }
