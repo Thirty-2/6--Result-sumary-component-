@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Hanken Grotesk'; }
+
+/* Utilities */
+h1 { font-size: 80px; }
+span { font-weight: 700; }
+.Bg-1 { color: hsl(0, 100%, 67%); }
+.Bg-2 { color: hsl(39, 100%, 56%); }
+.Bg-3 { color: hsl(166, 100%, 37%); }
+.Bg-4 { color: hsl(234, 85%, 45%); }
+
+/* Container */
+#Container { display: flex; margin: 230px auto; background-color: white; width: fit-content; border-radius: 30px; box-shadow: 10px 10px 10px -10px hsl(241, 100%, 89%); }
+
+/* Left */
+.Left { background: linear-gradient(to Bottom, hsl(252, 100%, 67%) 10%, hsl(241, 81%, 54%) 100%); display: flex; flex-flow: column; align-items: center; gap: 40px; text-align: center; border-radius: 30px; width: 50%; padding: 40px; color: white; }
+
+/* Left p */
+.Left p { color: rgb(201, 201, 201); }
+
+/* Bottom */
+.Bottom {  }
+
+/* Score */
+.Score { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(to Bottom, hsla(256, 72%, 46%, 1) 50%, hsla(241, 72%, 46%, 0) 100%); border-radius: 50%; height: 200px; width: 200px; }
+
+/* Right */
+.Right { display: flex; flex-direction: column; gap: 30px; padding: 40px; width: 50%; }
+
+
+/* Rating */
+.Rating { display: flex; flex-direction: column; gap: 15px; }
+
+/* Rate-1 */
+.Rate-1 { display: flex; justify-content: space-between; align-items: center; width: 100%; background-color: hsla(0, 100%, 67%, 0.100); padding: 20px; border-radius: 10px; }
+/* p */
+/* rate-1 */
+.rate-1 { display: flex; justify-content: space-between; width: 33%; }
+
+/* Rate-2 */
+.Rate-2 { display: flex; justify-content: space-between; align-items: center; width: 100%; background-color: hsla(39, 100%, 56%, 0.100); padding: 20px; border-radius: 10px; }
+
+/* Rate-3 */
+.Rate-3 { display: flex; justify-content: space-between; align-items: center; width: 100%; background-color: hsl(166, 100%, 37% , 0.100); padding: 20px; border-radius: 10px; }
+
+/* Rate-3 */
+.Rate-4 { display: flex; justify-content: space-between; align-items: center; width: 100%; background-color: hsl(234, 85%, 45%, 0.100); padding: 20px; border-radius: 10px; }
+
+
+
+/* Right a */
+a { display: flex; justify-content: center; background-color: hsl(224, 30%, 27%); padding: 15px 50px; text-decoration: none; color: white; border-radius: 40px; }
+a:hover { background: linear-gradient(to Bottom, hsl(252, 100%, 67%) 10%, hsl(241, 81%, 54%) 100%); }
+
+
+/* Responsiveness */
+@media screen and (max-width:750px) {
+#Container { display: block; position: relative; width: 200%; box-shadow: none; }
+.Left { border-top-left-radius: 0; border-top-right-radius: 0; }
+}
