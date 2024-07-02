@@ -56,6 +56,6 @@ a:hover { background: linear-gradient(to Bottom, hsl(252, 100%, 67%) 10%, hsl(24
 
 /* Responsiveness */
 @media screen and (max-width:750px) {
-#Container { display: block; position: relative; width: 200%; box-shadow: none; }
+#Container { display: block; margin: 0 auto; position: relative; width: 200%; box-shadow: none; }
 .Left { border-top-left-radius: 0; border-top-right-radius: 0; }
 }
